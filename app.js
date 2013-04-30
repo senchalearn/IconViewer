@@ -31,6 +31,7 @@ Ext.application({
     views: [
         'Main'
     ],
+    stores: ['SearchTimelineStore'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

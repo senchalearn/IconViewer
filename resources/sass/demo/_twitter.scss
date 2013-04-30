@@ -1,0 +1,10 @@
+.tweet-wrapper {
+  h2 { font-weight: bold; padding-bottom: 3px; }
+  img { border-radius: 5px; float: left; }
+  .tweet {
+    font-size: 70%;
+    margin-left: 60px;
+    min-height: 50px;
+  }
+  .posted { float: right; }
+}

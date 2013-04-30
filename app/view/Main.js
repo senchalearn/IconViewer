@@ -2,7 +2,8 @@ Ext.define('IconViewer.view.Main', {
     extend: 'Ext.TabPanel',
     xtype: 'mainview',
     requires: [
-        'IconViewer.view.Index'
+        'IconViewer.view.Index',
+        'IconViewer.view.TwitterSearch',
     ],
 
     config: {
@@ -16,6 +17,8 @@ Ext.define('IconViewer.view.Main', {
         },
         items: [{
             xtype: 'indexcard'
+        },{
+            xtype: 'twittersearch'
         }]
     }
 });
