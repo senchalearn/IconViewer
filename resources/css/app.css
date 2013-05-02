@@ -6101,6 +6101,17 @@ body.x-desktop {
   color: black;
 }
 
+.x-tab .x-button-icon.anchor:before,
+.x-button .x-button-icon.anchor:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  content: "a";
+}
+
 .tweet-wrapper h2 {
   font-weight: bold;
   padding-bottom: 3px;
