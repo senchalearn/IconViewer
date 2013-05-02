@@ -16,15 +16,15 @@ Ext.define('IconViewer.controller.Main', {
     showIconName: function(button) {
         var iconStyle = this.getIconStyle(button);
         this.getIndexCard().setData({
-            name: button.getIconCls(),
-            font: iconStyle.getPropertyValue('font-family'),
-            char: iconStyle.getPropertyValue('content')
+            'name': button.getIconCls(),
+            'font': iconStyle.getPropertyValue('font-family'),
+            'char': iconStyle.getPropertyValue('content')
         });
     },
 
     getIconStyle: function(button) {
-        iconSpan = button.element.dom.children[1];
-        return window.getComputedStyle(iconSpan, 'before')
+        var iconSpan = button.element.dom.children[1];
+        return window.getComputedStyle(iconSpan, 'before');
     }
 
 });
