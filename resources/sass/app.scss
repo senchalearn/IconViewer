@@ -5,6 +5,10 @@
 @import 'sencha-touch/default/all';
 
 // Custom code goes here..
+@include icon-font('IcoMoon', inline-font-files('pictos/icomoon.woff', woff, 'pictos/icomoon.ttf', truetype,'pictos/icomoon.svg', svg));
+@include icon('android', '#', 'IcoMoon');
+@include icon('github', '"', 'IcoMoon');
+@include icon('twitter', '!', 'IcoMoon');
 
 @import 'demo/icons';
 @import 'demo/twitter';
