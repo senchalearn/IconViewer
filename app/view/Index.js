@@ -155,6 +155,12 @@ Ext.define('IconViewer.view.Index', {
                 { iconCls: "volume" },
                 { iconCls: "help" }
             ]
+        },{
+            items: [
+                { iconCls: "twitter" },
+                { iconCls: "github" },
+                { iconCls: "android" }
+            ]
         }],
         tpl: [
             '<tpl if="name == \'_initial_\'">',
